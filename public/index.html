@@ -8,8 +8,6 @@
       rel="stylesheet"
     />
 
-    <link rel="preload" href="gallery/ancient-greece.png" as="image" />
-
     <script defer src="script.js"></script>
 
     <meta charset="UTF-8" />
@@ -21,6 +19,16 @@
     <h1>
       <img src="images/logo.png" alt="Frontend Masters Museum" width="300" />
     </h1>
-    <main></main>
+    <main>
+      <article>
+        <h2>Life in Ancient Greek</h2>
+        <p>
+          Uncover the world of ancient Greece through the sculptures, tools, and
+          jewelry found in ruins from over 2000 years ago that have been
+          unearthed through modern science and technology.
+        </p>
+        <img src="gallery/ancient-greece.png" fetchpriority="high" />
+      </article>
+    </main>
   </body>
 </html>
